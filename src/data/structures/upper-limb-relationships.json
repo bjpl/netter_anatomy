@@ -1,0 +1,452 @@
+[
+  {
+    "id": "rel-ul-001",
+    "source_structure_id": "bone-ul-humerus-head-002",
+    "target_structure_id": "bone-ul-scapula-glenoid-016",
+    "relationship_type": "articulates_with",
+    "description": "The head of the humerus articulates with the glenoid cavity of the scapula to form the glenohumeral (shoulder) joint, a ball-and-socket synovial joint allowing multiaxial movement",
+    "bidirectional": true,
+    "clinical_relevance": "This articulation is inherently unstable due to the shallow glenoid cavity, making anterior shoulder dislocations common. Recurrent dislocations can cause Bankart lesions (glenoid labrum tears) and Hill-Sachs lesions (humeral head compression fractures)."
+  },
+  {
+    "id": "rel-ul-002",
+    "source_structure_id": "muscle-ul-supraspinatus-002",
+    "target_structure_id": "bone-ul-humerus-greater-tubercle-003",
+    "relationship_type": "attaches_to",
+    "description": "Supraspinatus inserts on the superior facet of the greater tubercle of the humerus",
+    "bidirectional": false,
+    "clinical_relevance": "This insertion is the most common site of rotator cuff tears. Impingement between the acromion and greater tubercle during abduction can cause supraspinatus tendinopathy and eventual tearing."
+  },
+  {
+    "id": "rel-ul-003",
+    "source_structure_id": "muscle-ul-infraspinatus-003",
+    "target_structure_id": "bone-ul-humerus-greater-tubercle-003",
+    "relationship_type": "attaches_to",
+    "description": "Infraspinatus inserts on the middle facet of the greater tubercle of the humerus",
+    "bidirectional": false,
+    "clinical_relevance": "Infraspinatus tears are the second most common rotator cuff injury. Tears often extend from supraspinatus and can cause external rotation weakness."
+  },
+  {
+    "id": "rel-ul-004",
+    "source_structure_id": "muscle-ul-teres-minor-004",
+    "target_structure_id": "bone-ul-humerus-greater-tubercle-003",
+    "relationship_type": "attaches_to",
+    "description": "Teres minor inserts on the inferior facet of the greater tubercle of the humerus",
+    "bidirectional": false,
+    "clinical_relevance": "Teres minor is relatively protected from impingement and tears less frequently than other rotator cuff muscles. Its intact function helps maintain external rotation even with larger rotator cuff tears."
+  },
+  {
+    "id": "rel-ul-005",
+    "source_structure_id": "muscle-ul-subscapularis-005",
+    "target_structure_id": "bone-ul-humerus-lesser-tubercle-004",
+    "relationship_type": "attaches_to",
+    "description": "Subscapularis inserts on the lesser tubercle of the humerus",
+    "bidirectional": false,
+    "clinical_relevance": "Subscapularis tears are often missed on imaging but account for ~30% of rotator cuff pathology. Tears predispose to anterior shoulder instability and can result from forced external rotation."
+  },
+  {
+    "id": "rel-ul-006",
+    "source_structure_id": "muscle-ul-deltoid-001",
+    "target_structure_id": "nerve-ul-axillary-006",
+    "relationship_type": "innervated_by",
+    "description": "The deltoid muscle is innervated by the axillary nerve (C5, C6)",
+    "bidirectional": false,
+    "clinical_relevance": "Axillary nerve injury from shoulder dislocation or humeral neck fracture causes deltoid paralysis and loss of shoulder abduction beyond 15 degrees, with characteristic loss of shoulder contour."
+  },
+  {
+    "id": "rel-ul-007",
+    "source_structure_id": "muscle-ul-deltoid-001",
+    "target_structure_id": "vessel-ul-axillary-artery-002",
+    "relationship_type": "supplied_by",
+    "description": "The deltoid muscle is supplied by branches of the thoracoacromial artery and posterior humeral circumflex artery",
+    "bidirectional": false,
+    "clinical_relevance": "Maintaining blood supply to the deltoid is critical during shoulder surgery. The posterior humeral circumflex artery passes through the quadrangular space with the axillary nerve."
+  },
+  {
+    "id": "rel-ul-008",
+    "source_structure_id": "muscle-ul-biceps-brachii-009",
+    "target_structure_id": "nerve-ul-musculocutaneous-002",
+    "relationship_type": "innervated_by",
+    "description": "The biceps brachii is innervated by the musculocutaneous nerve (C5, C6)",
+    "bidirectional": false,
+    "clinical_relevance": "Musculocutaneous nerve injury results in weak elbow flexion and supination, with sensory loss over the lateral forearm. The nerve pierces through coracobrachialis, where it can be injured."
+  },
+  {
+    "id": "rel-ul-009",
+    "source_structure_id": "muscle-ul-biceps-brachii-009",
+    "target_structure_id": "bone-ul-radius-tuberosity-020",
+    "relationship_type": "attaches_to",
+    "description": "The biceps brachii tendon inserts on the radial tuberosity",
+    "bidirectional": false,
+    "clinical_relevance": "Distal biceps tendon rupture from the radial tuberosity causes loss of supination strength and a 'Popeye deformity.' Surgical repair is often recommended for active individuals."
+  },
+  {
+    "id": "rel-ul-010",
+    "source_structure_id": "muscle-ul-triceps-brachii-010",
+    "target_structure_id": "nerve-ul-radial-005",
+    "relationship_type": "innervated_by",
+    "description": "The triceps brachii is innervated by the radial nerve (C6, C7, C8)",
+    "bidirectional": false,
+    "clinical_relevance": "Radial nerve palsy causes loss of elbow extension along with wrist and finger drop. High radial nerve injury affects all three heads of triceps, while posterior interosseous syndrome spares triceps."
+  },
+  {
+    "id": "rel-ul-011",
+    "source_structure_id": "muscle-ul-triceps-brachii-010",
+    "target_structure_id": "bone-ul-ulna-olecranon-023",
+    "relationship_type": "attaches_to",
+    "description": "The triceps brachii tendon inserts on the olecranon process of the ulna",
+    "bidirectional": false,
+    "clinical_relevance": "Triceps tendon rupture from the olecranon is less common than biceps rupture but severely impairs extension. Olecranon bursitis can develop from repetitive triceps contraction."
+  },
+  {
+    "id": "rel-ul-012",
+    "source_structure_id": "bone-ul-humerus-capitulum-009",
+    "target_structure_id": "bone-ul-radius-head-019",
+    "relationship_type": "articulates_with",
+    "description": "The capitulum of the humerus articulates with the head of the radius, allowing flexion-extension and pronation-supination",
+    "bidirectional": true,
+    "clinical_relevance": "This radiocapitellar joint is essential for forearm rotation. Radial head fractures can cause painful clicking and limited pronation-supination. Radial head excision may be necessary for comminuted fractures."
+  },
+  {
+    "id": "rel-ul-013",
+    "source_structure_id": "bone-ul-humerus-trochlea-010",
+    "target_structure_id": "bone-ul-ulna-trochlear-notch-025",
+    "relationship_type": "articulates_with",
+    "description": "The trochlea of the humerus articulates with the trochlear notch of the ulna, forming a hinge joint allowing flexion-extension",
+    "bidirectional": true,
+    "clinical_relevance": "This humeroulnar joint provides primary stability for the elbow. Elbow dislocations typically occur here with posterior displacement of the ulna. Fractures affecting the trochlea can cause cubitus varus or valgus deformity."
+  },
+  {
+    "id": "rel-ul-014",
+    "source_structure_id": "nerve-ul-median-003",
+    "target_structure_id": "muscle-ul-pronator-teres-013",
+    "relationship_type": "passes_through",
+    "description": "The median nerve passes between the two heads of pronator teres muscle",
+    "bidirectional": false,
+    "clinical_relevance": "Pronator syndrome involves median nerve compression between the pronator teres heads, causing forearm pain and hand paresthesias that worsen with resisted pronation."
+  },
+  {
+    "id": "rel-ul-015",
+    "source_structure_id": "muscle-ul-flexor-carpi-radialis-014",
+    "target_structure_id": "nerve-ul-median-003",
+    "relationship_type": "innervated_by",
+    "description": "Flexor carpi radialis is innervated by the median nerve (C6, C7)",
+    "bidirectional": false,
+    "clinical_relevance": "Median nerve injury proximal to the elbow causes loss of FCR function affecting wrist flexion and radial deviation. The FCR tendon serves as a landmark for radial artery pulse palpation."
+  },
+  {
+    "id": "rel-ul-016",
+    "source_structure_id": "muscle-ul-flexor-carpi-ulnaris-015",
+    "target_structure_id": "nerve-ul-ulnar-004",
+    "relationship_type": "innervated_by",
+    "description": "Flexor carpi ulnaris is innervated by the ulnar nerve (C7, C8, T1)",
+    "bidirectional": false,
+    "clinical_relevance": "FCU is spared in carpal tunnel syndrome but affected in cubital tunnel syndrome. It is one of the few muscles innervated by the ulnar nerve in the forearm, making it useful for localizing nerve injuries."
+  },
+  {
+    "id": "rel-ul-017",
+    "source_structure_id": "muscle-ul-flexor-digitorum-profundus-018",
+    "target_structure_id": "nerve-ul-median-003",
+    "relationship_type": "innervated_by",
+    "description": "The lateral part of FDP (index and middle fingers) is innervated by the anterior interosseous nerve (branch of median nerve)",
+    "bidirectional": false,
+    "clinical_relevance": "Anterior interosseous syndrome causes isolated weakness of FDP to index/middle fingers and FPL, resulting in inability to make an 'OK' sign. Unlike carpal tunnel syndrome, there is no sensory loss."
+  },
+  {
+    "id": "rel-ul-018",
+    "source_structure_id": "muscle-ul-flexor-digitorum-profundus-018",
+    "target_structure_id": "nerve-ul-ulnar-004",
+    "relationship_type": "innervated_by",
+    "description": "The medial part of FDP (ring and little fingers) is innervated by the ulnar nerve (C8, T1)",
+    "bidirectional": false,
+    "clinical_relevance": "This dual innervation means FDP function can help localize nerve injuries. Ulnar nerve palsy affects ring/little finger DIP flexion while median nerve injury affects index/middle finger DIP flexion."
+  },
+  {
+    "id": "rel-ul-019",
+    "source_structure_id": "muscle-ul-flexor-pollicis-longus-019",
+    "target_structure_id": "nerve-ul-anterior-interosseous-009",
+    "relationship_type": "innervated_by",
+    "description": "Flexor pollicis longus is innervated by the anterior interosseous nerve (C7, C8)",
+    "bidirectional": false,
+    "clinical_relevance": "FPL paralysis in anterior interosseous syndrome causes inability to flex the thumb IP joint. Testing involves asking patient to make an 'OK' sign - inability indicates AIN dysfunction."
+  },
+  {
+    "id": "rel-ul-020",
+    "source_structure_id": "muscle-ul-pronator-quadratus-020",
+    "target_structure_id": "nerve-ul-anterior-interosseous-009",
+    "relationship_type": "innervated_by",
+    "description": "Pronator quadratus is innervated by the anterior interosseous nerve (C7, C8)",
+    "bidirectional": false,
+    "clinical_relevance": "Pronator quadratus is the primary pronator and maintains pronation even with pronator teres paralysis. AIN syndrome affects this muscle but weakness is often subtle and overshadowed by FPL/FDP deficits."
+  },
+  {
+    "id": "rel-ul-021",
+    "source_structure_id": "muscle-ul-extensor-digitorum-024",
+    "target_structure_id": "nerve-ul-posterior-interosseous-010",
+    "relationship_type": "innervated_by",
+    "description": "Extensor digitorum is innervated by the posterior interosseous nerve (C6, C7, C8)",
+    "bidirectional": false,
+    "clinical_relevance": "Posterior interosseous syndrome causes finger/thumb extension weakness without wrist drop (ECRL/ECRB spared). This differs from high radial nerve palsy which causes complete wrist and finger drop."
+  },
+  {
+    "id": "rel-ul-022",
+    "source_structure_id": "muscle-ul-brachioradialis-021",
+    "target_structure_id": "nerve-ul-radial-005",
+    "relationship_type": "innervated_by",
+    "description": "Brachioradialis is innervated by the radial nerve (C5, C6) before it divides into superficial and deep branches",
+    "bidirectional": false,
+    "clinical_relevance": "Brachioradialis is spared in posterior interosseous syndrome but affected in high radial nerve palsy. The brachioradialis reflex tests C5-C6 nerve roots and radial nerve function."
+  },
+  {
+    "id": "rel-ul-023",
+    "source_structure_id": "muscle-ul-extensor-carpi-radialis-longus-022",
+    "target_structure_id": "nerve-ul-radial-005",
+    "relationship_type": "innervated_by",
+    "description": "ECRL is innervated by the radial nerve (C6, C7) before it divides",
+    "bidirectional": false,
+    "clinical_relevance": "ECRL is spared in posterior interosseous syndrome, maintaining radially deviated wrist extension. This differs from complete radial nerve palsy where all wrist extension is lost."
+  },
+  {
+    "id": "rel-ul-024",
+    "source_structure_id": "muscle-ul-extensor-carpi-radialis-brevis-023",
+    "target_structure_id": "nerve-ul-posterior-interosseous-010",
+    "relationship_type": "innervated_by",
+    "description": "ECRB is innervated by the posterior interosseous nerve (C6, C7)",
+    "bidirectional": false,
+    "clinical_relevance": "ECRB is the primary structure affected in lateral epicondylitis (tennis elbow). The common extensor origin at the lateral epicondyle shows degenerative changes requiring surgical debridement in chronic cases."
+  },
+  {
+    "id": "rel-ul-025",
+    "source_structure_id": "muscle-ul-supraspinatus-002",
+    "target_structure_id": "nerve-ul-suprascapular-008",
+    "relationship_type": "innervated_by",
+    "description": "Supraspinatus is innervated by the suprascapular nerve (C5, C6)",
+    "bidirectional": false,
+    "clinical_relevance": "Suprascapular nerve entrapment at the suprascapular notch affects both supraspinatus and infraspinatus, causing deep shoulder pain and weakness in abduction and external rotation."
+  },
+  {
+    "id": "rel-ul-026",
+    "source_structure_id": "muscle-ul-infraspinatus-003",
+    "target_structure_id": "nerve-ul-suprascapular-008",
+    "relationship_type": "innervated_by",
+    "description": "Infraspinatus is innervated by the suprascapular nerve (C5, C6) after it passes through the spinoglenoid notch",
+    "bidirectional": false,
+    "clinical_relevance": "Isolated infraspinatus atrophy suggests suprascapular nerve compression at the spinoglenoid notch, often from paralabral cysts. This spares supraspinatus which is innervated before the spinoglenoid notch."
+  },
+  {
+    "id": "rel-ul-027",
+    "source_structure_id": "vessel-ul-brachial-artery-003",
+    "target_structure_id": "vessel-ul-radial-artery-004",
+    "relationship_type": "branch_of",
+    "description": "The radial artery is the lateral terminal branch of the brachial artery, arising in the cubital fossa",
+    "bidirectional": false,
+    "clinical_relevance": "The radial artery provides the primary blood supply to the lateral forearm and hand via the deep palmar arch. Allen's test assesses radial artery patency before cannulation or harvesting for CABG."
+  },
+  {
+    "id": "rel-ul-028",
+    "source_structure_id": "vessel-ul-brachial-artery-003",
+    "target_structure_id": "vessel-ul-ulnar-artery-005",
+    "relationship_type": "branch_of",
+    "description": "The ulnar artery is the larger medial terminal branch of the brachial artery, arising in the cubital fossa",
+    "bidirectional": false,
+    "clinical_relevance": "The ulnar artery is the dominant contributor to the superficial palmar arch, providing blood flow to the digits. Ulnar artery thrombosis (hypothenar hammer syndrome) can cause digital ischemia."
+  },
+  {
+    "id": "rel-ul-029",
+    "source_structure_id": "vessel-ul-axillary-artery-002",
+    "target_structure_id": "vessel-ul-brachial-artery-003",
+    "relationship_type": "continuous_with",
+    "description": "The axillary artery becomes the brachial artery at the inferior border of teres major",
+    "bidirectional": false,
+    "clinical_relevance": "This anatomical transition marks the boundary between the axilla and arm. Injury at this level can result from shoulder dislocation or during axillary surgery."
+  },
+  {
+    "id": "rel-ul-030",
+    "source_structure_id": "vessel-ul-subclavian-artery-001",
+    "target_structure_id": "vessel-ul-axillary-artery-002",
+    "relationship_type": "continuous_with",
+    "description": "The subclavian artery becomes the axillary artery at the lateral border of the first rib",
+    "bidirectional": false,
+    "clinical_relevance": "This transition occurs as the artery passes over the first rib between the scalene muscles. Thoracic outlet syndrome can compress the artery at this location, and cervical ribs can cause arterial compression."
+  },
+  {
+    "id": "rel-ul-031",
+    "source_structure_id": "nerve-ul-radial-005",
+    "target_structure_id": "vessel-ul-deep-brachial-artery-006",
+    "relationship_type": "passes_through",
+    "description": "The radial nerve accompanies the deep brachial artery through the radial groove of the humerus",
+    "bidirectional": false,
+    "clinical_relevance": "This intimate relationship means mid-shaft humeral fractures often cause both radial nerve palsy and deep brachial artery injury. The nerve is at risk during humeral plating and nailing procedures."
+  },
+  {
+    "id": "rel-ul-032",
+    "source_structure_id": "nerve-ul-axillary-006",
+    "target_structure_id": "vessel-ul-axillary-artery-002",
+    "relationship_type": "passes_through",
+    "description": "The axillary nerve passes through the quadrangular space with the posterior humeral circumflex artery",
+    "bidirectional": false,
+    "clinical_relevance": "Quadrangular space syndrome causes compression of both the axillary nerve and posterior humeral circumflex artery, resulting in deltoid/teres minor weakness and possible muscle ischemia."
+  },
+  {
+    "id": "rel-ul-033",
+    "source_structure_id": "muscle-ul-teres-major-006",
+    "target_structure_id": "nerve-ul-subscapular-lower-014",
+    "relationship_type": "innervated_by",
+    "description": "Teres major is innervated by the lower subscapular nerve (C5, C6)",
+    "bidirectional": false,
+    "clinical_relevance": "Teres major paralysis is rare but causes weakness in extension and adduction. The muscle forms boundaries of important spaces (quadrangular and triangular) containing neurovascular structures."
+  },
+  {
+    "id": "rel-ul-034",
+    "source_structure_id": "muscle-ul-pectoralis-major-007",
+    "target_structure_id": "nerve-ul-lateral-pectoral-011",
+    "relationship_type": "innervated_by",
+    "description": "The clavicular head of pectoralis major is primarily innervated by the lateral pectoral nerve (C5-C7)",
+    "bidirectional": false,
+    "clinical_relevance": "Lateral pectoral nerve injury during axillary surgery or clavicle fractures causes weakness of shoulder flexion and horizontal adduction, particularly affecting the upper pectoralis major."
+  },
+  {
+    "id": "rel-ul-035",
+    "source_structure_id": "muscle-ul-pectoralis-major-007",
+    "target_structure_id": "nerve-ul-medial-pectoral-012",
+    "relationship_type": "innervated_by",
+    "description": "The sternocostal head of pectoralis major is innervated by the medial pectoral nerve (C8-T1)",
+    "bidirectional": false,
+    "clinical_relevance": "Medial pectoral nerve injury during axillary lymph node dissection causes weakness of adduction and medial rotation. Combined pectoral nerve injury results in loss of the anterior axillary fold."
+  },
+  {
+    "id": "rel-ul-036",
+    "source_structure_id": "muscle-ul-latissimus-dorsi-008",
+    "target_structure_id": "nerve-ul-thoracodorsal-015",
+    "relationship_type": "innervated_by",
+    "description": "Latissimus dorsi is innervated solely by the thoracodorsal nerve (C6-C8)",
+    "bidirectional": false,
+    "clinical_relevance": "Thoracodorsal nerve injury during axillary surgery or latissimus flap harvest causes loss of shoulder extension, adduction, and medial rotation, particularly affecting swimming and climbing activities."
+  },
+  {
+    "id": "rel-ul-037",
+    "source_structure_id": "vessel-ul-cephalic-vein-011",
+    "target_structure_id": "vessel-ul-axillary-vein-014",
+    "relationship_type": "drains_to",
+    "description": "The cephalic vein pierces the clavipectoral fascia to drain into the axillary vein",
+    "bidirectional": false,
+    "clinical_relevance": "This junction is important for venous drainage of the arm. Thrombosis or compression at this point can cause arm swelling. The vein is commonly used for arteriovenous fistula creation."
+  },
+  {
+    "id": "rel-ul-038",
+    "source_structure_id": "vessel-ul-basilic-vein-012",
+    "target_structure_id": "vessel-ul-axillary-vein-014",
+    "relationship_type": "drains_to",
+    "description": "The basilic vein joins the brachial veins to form the axillary vein at the inferior border of teres major",
+    "bidirectional": false,
+    "clinical_relevance": "The basilic vein is preferred for arteriovenous fistula when the cephalic vein is inadequate. Its deep course in the upper arm places it near important nerves (ulnar, medial antebrachial cutaneous)."
+  },
+  {
+    "id": "rel-ul-039",
+    "source_structure_id": "vessel-ul-median-cubital-vein-013",
+    "target_structure_id": "vessel-ul-basilic-vein-012",
+    "relationship_type": "drains_to",
+    "description": "The median cubital vein connects the cephalic vein to the basilic vein across the cubital fossa",
+    "bidirectional": false,
+    "clinical_relevance": "This is the preferred site for venipuncture due to its size and stability. The bicipital aponeurosis protects the underlying brachial artery and median nerve from needle injury during blood draws."
+  },
+  {
+    "id": "rel-ul-040",
+    "source_structure_id": "vessel-ul-radial-artery-004",
+    "target_structure_id": "vessel-ul-deep-palmar-arch-010",
+    "relationship_type": "continuous_with",
+    "description": "The radial artery forms the deep palmar arch after passing through the first dorsal interosseous muscle",
+    "bidirectional": false,
+    "clinical_relevance": "The deep palmar arch is nearly always complete (98%) and provides critical collateral circulation to the hand. Radial artery injury proximal to the arch can still maintain hand perfusion via the superficial arch."
+  },
+  {
+    "id": "rel-ul-041",
+    "source_structure_id": "vessel-ul-ulnar-artery-005",
+    "target_structure_id": "vessel-ul-superficial-palmar-arch-009",
+    "relationship_type": "continuous_with",
+    "description": "The ulnar artery forms the superficial palmar arch after passing through Guyon's canal",
+    "bidirectional": false,
+    "clinical_relevance": "The superficial palmar arch supplies the common and proper digital arteries. Allen's test assesses arch completeness and adequacy of ulnar collateral flow before radial artery procedures."
+  },
+  {
+    "id": "rel-ul-042",
+    "source_structure_id": "bone-ul-clavicle-017",
+    "target_structure_id": "bone-ul-scapula-acromion-014",
+    "relationship_type": "articulates_with",
+    "description": "The lateral end of the clavicle articulates with the acromion of the scapula at the acromioclavicular joint",
+    "bidirectional": true,
+    "clinical_relevance": "AC joint separation (shoulder separation) is common in contact sports and results from disruption of AC and coracoclavicular ligaments. This differs from glenohumeral dislocation (shoulder dislocation)."
+  },
+  {
+    "id": "rel-ul-043",
+    "source_structure_id": "nerve-ul-median-003",
+    "target_structure_id": "nerve-ul-brachial-plexus-001",
+    "relationship_type": "branch_of",
+    "description": "The median nerve is formed by contributions from both the medial and lateral cords of the brachial plexus",
+    "bidirectional": false,
+    "clinical_relevance": "This dual cord origin means proximal brachial plexus injuries may partially spare median nerve function. The characteristic 'M' shape formed by the nerve roots anterior to the axillary artery is an important anatomical landmark."
+  },
+  {
+    "id": "rel-ul-044",
+    "source_structure_id": "nerve-ul-ulnar-004",
+    "target_structure_id": "nerve-ul-brachial-plexus-001",
+    "relationship_type": "branch_of",
+    "description": "The ulnar nerve is a terminal branch of the medial cord of the brachial plexus",
+    "bidirectional": false,
+    "clinical_relevance": "Medial cord injuries from traction or trauma will affect ulnar nerve function along with medial pectoral nerve and medial cutaneous nerves of arm and forearm."
+  },
+  {
+    "id": "rel-ul-045",
+    "source_structure_id": "nerve-ul-radial-005",
+    "target_structure_id": "nerve-ul-brachial-plexus-001",
+    "relationship_type": "branch_of",
+    "description": "The radial nerve is the largest terminal branch of the posterior cord of the brachial plexus",
+    "bidirectional": false,
+    "clinical_relevance": "Posterior cord injuries affect radial nerve along with axillary nerve and subscapular nerves, causing loss of extension throughout the upper limb and shoulder abduction deficits."
+  },
+  {
+    "id": "rel-ul-046",
+    "source_structure_id": "nerve-ul-axillary-006",
+    "target_structure_id": "nerve-ul-brachial-plexus-001",
+    "relationship_type": "branch_of",
+    "description": "The axillary nerve is a terminal branch of the posterior cord of the brachial plexus",
+    "bidirectional": false,
+    "clinical_relevance": "Isolated axillary nerve injury is common with anterior shoulder dislocation. The nerve exits the axilla through the quadrangular space, where it is vulnerable to compression or stretching."
+  },
+  {
+    "id": "rel-ul-047",
+    "source_structure_id": "nerve-ul-musculocutaneous-002",
+    "target_structure_id": "nerve-ul-brachial-plexus-001",
+    "relationship_type": "branch_of",
+    "description": "The musculocutaneous nerve is a terminal branch of the lateral cord of the brachial plexus",
+    "bidirectional": false,
+    "clinical_relevance": "Lateral cord injuries affect musculocutaneous and lateral pectoral nerves, as well as the lateral contribution to median nerve, causing complex patterns of weakness in elbow flexion and forearm function."
+  },
+  {
+    "id": "rel-ul-048",
+    "source_structure_id": "nerve-ul-anterior-interosseous-009",
+    "target_structure_id": "nerve-ul-median-003",
+    "relationship_type": "branch_of",
+    "description": "The anterior interosseous nerve is a pure motor branch of the median nerve arising in the proximal forearm",
+    "bidirectional": false,
+    "clinical_relevance": "AIN syndrome causes isolated motor deficits (FPL, lateral FDP, pronator quadratus) without sensory loss, differentiating it from proximal median nerve injuries or carpal tunnel syndrome."
+  },
+  {
+    "id": "rel-ul-049",
+    "source_structure_id": "nerve-ul-posterior-interosseous-010",
+    "target_structure_id": "nerve-ul-radial-005",
+    "relationship_type": "branch_of",
+    "description": "The posterior interosseous nerve is the deep motor branch of the radial nerve arising at the elbow",
+    "bidirectional": false,
+    "clinical_relevance": "PIN syndrome causes finger/thumb extension weakness but spares wrist extension (ECRL/ECRB intact), differentiating it from high radial nerve palsy. Compression commonly occurs at the arcade of Frohse."
+  },
+  {
+    "id": "rel-ul-050",
+    "source_structure_id": "vessel-ul-anterior-interosseous-artery-007",
+    "target_structure_id": "nerve-ul-anterior-interosseous-009",
+    "relationship_type": "passes_through",
+    "description": "The anterior interosseous artery accompanies the anterior interosseous nerve along the interosseous membrane",
+    "bidirectional": false,
+    "clinical_relevance": "The artery and nerve travel together between FDP and FPL. Both may be injured during deep forearm approaches or compartment syndrome. The persistent median artery, when present, may also travel with the AIN."
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-47g8-h9i0-j1k2l3m4n5o6",
+    "name": "Head & Neck",
+    "slug": "head-neck",
+    "description": "Cranial structures, facial anatomy, and cervical regions including brain, cranial nerves, and neck viscera",
+    "atlasPlateRange": "1-148",
+    "sortOrder": 1,
+    "thumbnailUrl": "/assets/regions/head-neck-thumb.webp"
+  },
+  {
+    "id": "b2c3d4e5-f6g7-48h9-i0j1-k2l3m4n5o6p7",
+    "name": "Back & Spinal Cord",
+    "slug": "back-spine",
+    "description": "Vertebral column, spinal cord, meninges, and supporting musculature",
+    "atlasPlateRange": "149-177",
+    "sortOrder": 2,
+    "thumbnailUrl": "/assets/regions/back-spine-thumb.webp"
+  },
+  {
+    "id": "c3d4e5f6-g7h8-49i0-j1k2-l3m4n5o6p7q8",
+    "name": "Thorax",
+    "slug": "thorax",
+    "description": "Thoracic wall, mediastinum, lungs, and heart including all thoracic viscera",
+    "atlasPlateRange": "178-241",
+    "sortOrder": 3,
+    "thumbnailUrl": "/assets/regions/thorax-thumb.webp"
+  },
+  {
+    "id": "d4e5f6g7-h8i9-40j1-k2l3-m4n5o6p7q8r9",
+    "name": "Abdomen",
+    "slug": "abdomen",
+    "description": "Abdominal wall, peritoneum, gastrointestinal organs, liver, kidneys, and associated structures",
+    "atlasPlateRange": "242-328",
+    "sortOrder": 4,
+    "thumbnailUrl": "/assets/regions/abdomen-thumb.webp"
+  },
+  {
+    "id": "e5f6g7h8-i9j0-41k2-l3m4-n5o6p7q8r9s0",
+    "name": "Pelvis & Perineum",
+    "slug": "pelvis-perineum",
+    "description": "Pelvic girdle, pelvic organs, urogenital structures, and perineal anatomy",
+    "atlasPlateRange": "329-399",
+    "sortOrder": 5,
+    "thumbnailUrl": "/assets/regions/pelvis-perineum-thumb.webp"
+  },
+  {
+    "id": "f6g7h8i9-j0k1-42l3-m4n5-o6p7q8r9s0t1",
+    "name": "Upper Limb",
+    "slug": "upper-limb",
+    "description": "Shoulder, arm, forearm, and hand including all bones, muscles, nerves, and vessels",
+    "atlasPlateRange": "400-468",
+    "sortOrder": 6,
+    "thumbnailUrl": "/assets/regions/upper-limb-thumb.webp"
+  },
+  {
+    "id": "g7h8i9j0-k1l2-43m4-n5o6-p7q8r9s0t1u2",
+    "name": "Lower Limb",
+    "slug": "lower-limb",
+    "description": "Hip, thigh, leg, and foot including all bones, muscles, nerves, and vessels",
+    "atlasPlateRange": "469-531",
+    "sortOrder": 7,
+    "thumbnailUrl": "/assets/regions/lower-limb-thumb.webp"
+  }
+]

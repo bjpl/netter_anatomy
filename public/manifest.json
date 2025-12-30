@@ -1,0 +1,52 @@
+{
+  "name": "Netter's Anatomy Learning Tool",
+  "short_name": "Anatomy",
+  "description": "Interactive 3D anatomy learning tool based on Netter's Atlas",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#2563EB",
+  "background_color": "#FFFFFF",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["education", "medical", "health"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Study Mode",
+      "short_name": "Study",
+      "description": "Start studying anatomy flashcards",
+      "url": "/study"
+    },
+    {
+      "name": "3D Viewer",
+      "short_name": "Viewer",
+      "description": "Explore 3D anatomy models",
+      "url": "/explorer"
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}

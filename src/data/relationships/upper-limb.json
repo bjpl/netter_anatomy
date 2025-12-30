@@ -1,0 +1,336 @@
+{
+  "relationships": [
+    {
+      "id": "rel-humerus-scapula-001",
+      "sourceStructureId": "str-humerus-001",
+      "targetStructureId": "str-scapula-004",
+      "relationshipType": "articulates_with",
+      "description": "The head of the humerus articulates with the glenoid cavity of the scapula to form the glenohumeral (shoulder) joint, a ball-and-socket synovial joint allowing wide range of motion.",
+      "bidirectional": true,
+      "clinicalRelevance": "Shoulder dislocation (most commonly anterior) separates these articulating surfaces. The shallow glenoid cavity provides mobility but sacrifices stability."
+    },
+    {
+      "id": "rel-humerus-radius-002",
+      "sourceStructureId": "str-humerus-001",
+      "targetStructureId": "str-radius-002",
+      "relationshipType": "articulates_with",
+      "description": "The capitulum of the humerus articulates with the head of the radius at the humeroradial joint, allowing flexion-extension and pronation-supination of the forearm.",
+      "bidirectional": true,
+      "clinicalRelevance": "Radial head fractures commonly result from falls on an outstretched hand (FOOSH injuries), disrupting this articulation."
+    },
+    {
+      "id": "rel-humerus-ulna-003",
+      "sourceStructureId": "str-humerus-001",
+      "targetStructureId": "str-ulna-003",
+      "relationshipType": "articulates_with",
+      "description": "The trochlea of the humerus articulates with the trochlear notch of the ulna at the humeroulnar joint, the primary elbow joint providing stability during flexion and extension.",
+      "bidirectional": true,
+      "clinicalRelevance": "This is the principal stabilizing articulation of the elbow joint. Supracondylar fractures may disrupt elbow mechanics and injure nearby neurovascular structures."
+    },
+    {
+      "id": "rel-radius-ulna-004",
+      "sourceStructureId": "str-radius-002",
+      "targetStructureId": "str-ulna-003",
+      "relationshipType": "articulates_with",
+      "description": "The radius and ulna articulate at two locations: proximally at the proximal radioulnar joint (radial head with radial notch of ulna) and distally at the distal radioulnar joint (ulnar head with ulnar notch of radius), allowing pronation and supination.",
+      "bidirectional": true,
+      "clinicalRelevance": "Disruption of either radioulnar joint impairs forearm rotation. Monteggia fracture involves proximal ulnar fracture with radial head dislocation. Galeazzi fracture involves radial shaft fracture with distal radioulnar joint disruption."
+    },
+    {
+      "id": "rel-scapula-clavicle-005",
+      "sourceStructureId": "str-scapula-004",
+      "targetStructureId": "str-clavicle-005",
+      "relationshipType": "articulates_with",
+      "description": "The acromion of the scapula articulates with the acromial end of the clavicle at the acromioclavicular (AC) joint, a plane synovial joint allowing gliding movements.",
+      "bidirectional": true,
+      "clinicalRelevance": "AC joint separation ('shoulder separation') commonly occurs from direct trauma to the shoulder, disrupting the acromioclavicular and coracoclavicular ligaments."
+    },
+    {
+      "id": "rel-biceps-humerus-006",
+      "sourceStructureId": "str-biceps-brachii-006",
+      "targetStructureId": "str-humerus-001",
+      "relationshipType": "passes_through",
+      "description": "The tendon of the long head of biceps brachii passes through the shoulder joint capsule and descends in the intertubercular sulcus (bicipital groove) of the humerus.",
+      "bidirectional": false,
+      "clinicalRelevance": "The long head tendon is prone to tendinitis and rupture within the bicipital groove, particularly with overhead activities. Rupture causes the characteristic 'Popeye' deformity."
+    },
+    {
+      "id": "rel-biceps-scapula-007",
+      "sourceStructureId": "str-biceps-brachii-006",
+      "targetStructureId": "str-scapula-004",
+      "relationshipType": "attaches_to",
+      "description": "The long head of biceps brachii originates from the supraglenoid tubercle of the scapula; the short head originates from the coracoid process of the scapula.",
+      "bidirectional": false,
+      "clinicalRelevance": "The long head contributes to shoulder stability and is subject to impingement. Both heads may be involved in rotator cuff pathology."
+    },
+    {
+      "id": "rel-biceps-radius-008",
+      "sourceStructureId": "str-biceps-brachii-006",
+      "targetStructureId": "str-radius-002",
+      "relationshipType": "attaches_to",
+      "description": "Biceps brachii inserts on the radial tuberosity of the radius via a strong tendon, providing powerful supination when the elbow is flexed.",
+      "bidirectional": false,
+      "clinicalRelevance": "Distal biceps tendon rupture occurs less commonly than proximal rupture but causes significant loss of supination strength and typically requires surgical repair in active individuals."
+    },
+    {
+      "id": "rel-biceps-musculocutaneous-009",
+      "sourceStructureId": "str-biceps-brachii-006",
+      "targetStructureId": "str-musculocutaneous-nerve-012",
+      "relationshipType": "innervated_by",
+      "description": "The biceps brachii is innervated by the musculocutaneous nerve (C5, C6), which pierces the coracobrachialis muscle before supplying the biceps.",
+      "bidirectional": false,
+      "clinicalRelevance": "Musculocutaneous nerve injury results in weakness of elbow flexion and forearm supination, though brachialis (partial radial innervation) and brachioradialis can partially compensate."
+    },
+    {
+      "id": "rel-biceps-brachial-artery-010",
+      "sourceStructureId": "str-biceps-brachii-006",
+      "targetStructureId": "str-brachial-artery-016",
+      "relationshipType": "supplied_by",
+      "description": "The biceps brachii receives arterial blood from muscular branches of the brachial artery.",
+      "bidirectional": false,
+      "clinicalRelevance": "The biceps muscle belly lies superficial to the brachial artery in the arm, with the bicipital aponeurosis protecting the artery and median nerve in the cubital fossa."
+    },
+    {
+      "id": "rel-triceps-humerus-011",
+      "sourceStructureId": "str-triceps-brachii-007",
+      "targetStructureId": "str-humerus-001",
+      "relationshipType": "attaches_to",
+      "description": "The lateral and medial heads of triceps brachii originate from the posterior surface of the humerus, above and below the radial groove respectively.",
+      "bidirectional": false,
+      "clinicalRelevance": "Midshaft humeral fractures may damage the radial nerve as it spirals through the radial groove between the lateral and medial heads of triceps."
+    },
+    {
+      "id": "rel-triceps-scapula-012",
+      "sourceStructureId": "str-triceps-brachii-007",
+      "targetStructureId": "str-scapula-004",
+      "relationshipType": "attaches_to",
+      "description": "The long head of triceps brachii originates from the infraglenoid tubercle of the scapula, making it the only head that crosses the shoulder joint.",
+      "bidirectional": false,
+      "clinicalRelevance": "The long head contributes to shoulder extension and adduction in addition to elbow extension."
+    },
+    {
+      "id": "rel-triceps-ulna-013",
+      "sourceStructureId": "str-triceps-brachii-007",
+      "targetStructureId": "str-ulna-003",
+      "relationshipType": "attaches_to",
+      "description": "All three heads of triceps brachii converge to insert via a common tendon on the olecranon process of the ulna.",
+      "bidirectional": false,
+      "clinicalRelevance": "The olecranon provides mechanical advantage for elbow extension. Olecranon fractures may disrupt triceps function if the insertion is avulsed."
+    },
+    {
+      "id": "rel-triceps-radial-nerve-014",
+      "sourceStructureId": "str-triceps-brachii-007",
+      "targetStructureId": "str-radial-nerve-013",
+      "relationshipType": "innervated_by",
+      "description": "The triceps brachii is innervated by the radial nerve (C7, C8), with all three heads receiving branches before the nerve enters the radial groove.",
+      "bidirectional": false,
+      "clinicalRelevance": "Radial nerve injury proximal to the radial groove results in loss of triceps function (inability to extend elbow), whereas injury at the radial groove spares triceps function."
+    },
+    {
+      "id": "rel-deltoid-humerus-015",
+      "sourceStructureId": "str-deltoid-008",
+      "targetStructureId": "str-humerus-001",
+      "relationshipType": "attaches_to",
+      "description": "The deltoid muscle inserts on the deltoid tuberosity on the lateral surface of the humeral shaft.",
+      "bidirectional": false,
+      "clinicalRelevance": "The deltoid tuberosity is a prominent roughening on the lateral humerus. Axillary nerve injury results in deltoid atrophy and a characteristic 'flat shoulder' appearance."
+    },
+    {
+      "id": "rel-deltoid-clavicle-016",
+      "sourceStructureId": "str-deltoid-008",
+      "targetStructureId": "str-clavicle-005",
+      "relationshipType": "attaches_to",
+      "description": "The anterior fibers of the deltoid originate from the anterior border and superior surface of the lateral third of the clavicle.",
+      "bidirectional": false,
+      "clinicalRelevance": "The clavicular attachment allows the anterior deltoid to contribute to shoulder flexion and medial rotation."
+    },
+    {
+      "id": "rel-deltoid-scapula-017",
+      "sourceStructureId": "str-deltoid-008",
+      "targetStructureId": "str-scapula-004",
+      "relationshipType": "attaches_to",
+      "description": "The middle fibers of deltoid originate from the lateral acromion, while the posterior fibers originate from the spine of the scapula.",
+      "bidirectional": false,
+      "clinicalRelevance": "These attachments enable the deltoid to perform multiple actions: the middle fibers abduct, while the posterior fibers extend and laterally rotate the arm."
+    },
+    {
+      "id": "rel-brachialis-humerus-018",
+      "sourceStructureId": "str-brachialis-009",
+      "targetStructureId": "str-humerus-001",
+      "relationshipType": "attaches_to",
+      "description": "The brachialis originates from the distal half of the anterior surface of the humerus and adjacent intermuscular septa.",
+      "bidirectional": false,
+      "clinicalRelevance": "The brachialis lies deep to the biceps and is the primary workhorse of elbow flexion, active regardless of forearm position."
+    },
+    {
+      "id": "rel-brachialis-ulna-019",
+      "sourceStructureId": "str-brachialis-009",
+      "targetStructureId": "str-ulna-003",
+      "relationshipType": "attaches_to",
+      "description": "The brachialis inserts on the coronoid process and ulnar tuberosity of the ulna, making it a pure elbow flexor.",
+      "bidirectional": false,
+      "clinicalRelevance": "Because the insertion is entirely on the ulna (not the radius), the brachialis functions purely as an elbow flexor without contributing to supination or pronation."
+    },
+    {
+      "id": "rel-brachialis-musculocutaneous-020",
+      "sourceStructureId": "str-brachialis-009",
+      "targetStructureId": "str-musculocutaneous-nerve-012",
+      "relationshipType": "innervated_by",
+      "description": "The brachialis is primarily innervated by the musculocutaneous nerve (C5, C6), which typically pierces the muscle. Some fibers may receive additional innervation from the radial nerve.",
+      "bidirectional": false,
+      "clinicalRelevance": "Dual innervation means that isolated musculocutaneous nerve injury may not completely paralyze the brachialis, preserving some elbow flexion strength."
+    },
+    {
+      "id": "rel-brachioradialis-humerus-021",
+      "sourceStructureId": "str-brachioradialis-010",
+      "targetStructureId": "str-humerus-001",
+      "relationshipType": "attaches_to",
+      "description": "The brachioradialis originates from the proximal two-thirds of the lateral supracondylar ridge of the humerus and the adjacent lateral intermuscular septum.",
+      "bidirectional": false,
+      "clinicalRelevance": "Despite originating from the humerus and being innervated by the radial nerve (an extensor nerve), the brachioradialis is functionally a flexor."
+    },
+    {
+      "id": "rel-brachioradialis-radius-022",
+      "sourceStructureId": "str-brachioradialis-010",
+      "targetStructureId": "str-radius-002",
+      "relationshipType": "attaches_to",
+      "description": "The brachioradialis inserts on the lateral aspect of the distal radius, just proximal to the styloid process.",
+      "bidirectional": false,
+      "clinicalRelevance": "The distal tendon is easily palpable at the wrist and serves as a landmark for the radial artery, which lies just deep to the medial border of the muscle."
+    },
+    {
+      "id": "rel-brachioradialis-radial-nerve-023",
+      "sourceStructureId": "str-brachioradialis-010",
+      "targetStructureId": "str-radial-nerve-013",
+      "relationshipType": "innervated_by",
+      "description": "The brachioradialis is innervated by the radial nerve (C5, C6) before it divides into superficial and deep branches.",
+      "bidirectional": false,
+      "clinicalRelevance": "The brachioradialis reflex (C5-C6) is tested by tapping the distal tendon. Radial nerve injury at the spiral groove spares the brachioradialis (innervated proximally)."
+    },
+    {
+      "id": "rel-musculocutaneous-brachial-plexus-024",
+      "sourceStructureId": "str-musculocutaneous-nerve-012",
+      "targetStructureId": "str-brachial-plexus-011",
+      "relationshipType": "branch_of",
+      "description": "The musculocutaneous nerve is a terminal branch arising from the lateral cord of the brachial plexus, receiving contributions from C5, C6, and C7 nerve roots.",
+      "bidirectional": false,
+      "clinicalRelevance": "Lateral cord injuries affect the musculocutaneous nerve, lateral pectoral nerve, and the lateral root of the median nerve."
+    },
+    {
+      "id": "rel-radial-nerve-brachial-plexus-025",
+      "sourceStructureId": "str-radial-nerve-013",
+      "targetStructureId": "str-brachial-plexus-011",
+      "relationshipType": "branch_of",
+      "description": "The radial nerve is the largest terminal branch of the brachial plexus, arising as the continuation of the posterior cord and receiving contributions from all five nerve roots (C5-T1).",
+      "bidirectional": false,
+      "clinicalRelevance": "Posterior cord injuries affect the radial nerve, axillary nerve, and thoracodorsal nerve, resulting in loss of all extension and weakened shoulder function."
+    },
+    {
+      "id": "rel-median-nerve-brachial-plexus-026",
+      "sourceStructureId": "str-median-nerve-014",
+      "targetStructureId": "str-brachial-plexus-011",
+      "relationshipType": "branch_of",
+      "description": "The median nerve is formed by the union of the lateral root (from lateral cord, C6-C7) and medial root (from medial cord, C8-T1) of the brachial plexus, typically anterior to the axillary artery.",
+      "bidirectional": false,
+      "clinicalRelevance": "The median nerve's dual origin from both cords makes it functionally important for both proximal flexors and distal intrinsic hand muscles."
+    },
+    {
+      "id": "rel-ulnar-nerve-brachial-plexus-027",
+      "sourceStructureId": "str-ulnar-nerve-015",
+      "targetStructureId": "str-brachial-plexus-011",
+      "relationshipType": "branch_of",
+      "description": "The ulnar nerve is a terminal branch of the medial cord of the brachial plexus, receiving contributions primarily from C8 and T1 nerve roots (with minor C7 contribution).",
+      "bidirectional": false,
+      "clinicalRelevance": "Medial cord or lower trunk injuries (Klumpke's palsy) result in ulnar nerve dysfunction with intrinsic hand muscle paralysis and claw hand deformity."
+    },
+    {
+      "id": "rel-radial-nerve-humerus-028",
+      "sourceStructureId": "str-radial-nerve-013",
+      "targetStructureId": "str-humerus-001",
+      "relationshipType": "passes_through",
+      "description": "The radial nerve spirals around the posterior surface of the humerus in the radial groove (spiral groove), passing between the lateral and medial heads of the triceps.",
+      "bidirectional": false,
+      "clinicalRelevance": "This intimate relationship makes the radial nerve vulnerable to injury in midshaft humeral fractures. 'Saturday night palsy' results from compression of the nerve against the humerus."
+    },
+    {
+      "id": "rel-median-nerve-brachial-artery-029",
+      "sourceStructureId": "str-median-nerve-014",
+      "targetStructureId": "str-brachial-artery-016",
+      "relationshipType": "continuous_with",
+      "description": "The median nerve travels alongside the brachial artery in the arm, initially lying lateral to the artery then crossing anteriorly to lie medial to it distally.",
+      "bidirectional": false,
+      "clinicalRelevance": "Both structures are vulnerable to injury in supracondylar fractures. The bicipital aponeurosis protects both the median nerve and brachial artery in the cubital fossa."
+    },
+    {
+      "id": "rel-ulnar-nerve-ulnar-artery-030",
+      "sourceStructureId": "str-ulnar-nerve-015",
+      "targetStructureId": "str-ulnar-artery-018",
+      "relationshipType": "continuous_with",
+      "description": "The ulnar nerve and ulnar artery travel together in the distal two-thirds of the forearm, with the nerve lying immediately medial to the artery, and both pass through Guyon's canal at the wrist.",
+      "bidirectional": false,
+      "clinicalRelevance": "This close relationship means that trauma or compression (such as in Guyon's canal syndrome) may affect both structures. The ulnar artery is the vessel used to palpate the ulnar pulse, medial to the flexor carpi ulnaris tendon."
+    },
+    {
+      "id": "rel-brachial-artery-radial-artery-031",
+      "sourceStructureId": "str-brachial-artery-016",
+      "targetStructureId": "str-radial-artery-017",
+      "relationshipType": "branch_of",
+      "description": "The radial artery is the smaller, lateral terminal branch of the brachial artery, arising at the bifurcation in the cubital fossa at the level of the radial neck.",
+      "bidirectional": false,
+      "clinicalRelevance": "The bifurcation typically occurs at the level of the radial neck, though anatomical variations are common. High origin of the radial artery from the brachial or even axillary artery occurs in ~15% of individuals."
+    },
+    {
+      "id": "rel-brachial-artery-ulnar-artery-032",
+      "sourceStructureId": "str-brachial-artery-016",
+      "targetStructureId": "str-ulnar-artery-018",
+      "relationshipType": "branch_of",
+      "description": "The ulnar artery is the larger, medial terminal branch of the brachial artery, arising at the bifurcation in the cubital fossa at the level of the radial neck.",
+      "bidirectional": false,
+      "clinicalRelevance": "The ulnar artery is the dominant contributor to the superficial palmar arch, which supplies the digital arteries to the fingers. Anatomical variations in the arch are common."
+    },
+    {
+      "id": "rel-biceps-triceps-antagonist-033",
+      "sourceStructureId": "str-biceps-brachii-006",
+      "targetStructureId": "str-triceps-brachii-007",
+      "relationshipType": "antagonist_to",
+      "description": "The biceps brachii (elbow flexor) and triceps brachii (elbow extensor) are antagonistic muscles, with reciprocal actions at the elbow joint.",
+      "bidirectional": true,
+      "clinicalRelevance": "Balanced tone between these antagonists is essential for smooth elbow movement. Spasticity or paralysis of either muscle disrupts this balance, leading to contractures."
+    },
+    {
+      "id": "rel-biceps-brachialis-synergist-034",
+      "sourceStructureId": "str-biceps-brachii-006",
+      "targetStructureId": "str-brachialis-009",
+      "relationshipType": "synergist_with",
+      "description": "The biceps brachii and brachialis work synergistically as elbow flexors, with brachialis providing consistent flexion force regardless of forearm position.",
+      "bidirectional": true,
+      "clinicalRelevance": "The brachialis is the 'workhorse' of elbow flexion, active in all positions. The biceps contributes more when the forearm is supinated and provides additional supination torque."
+    },
+    {
+      "id": "rel-radial-artery-ulnar-artery-anastomosis-035",
+      "sourceStructureId": "str-radial-artery-017",
+      "targetStructureId": "str-ulnar-artery-018",
+      "relationshipType": "continuous_with",
+      "description": "The radial and ulnar arteries anastomose to form two palmar arches: the deep palmar arch (primarily from radial) and the superficial palmar arch (primarily from ulnar), providing collateral circulation to the hand.",
+      "bidirectional": true,
+      "clinicalRelevance": "This dual arterial supply with extensive anastomoses provides collateral circulation, allowing hand perfusion even if one vessel is occluded. The Allen test assesses the adequacy of this collateral flow before radial artery procedures."
+    }
+  ],
+  "metadata": {
+    "region": "upper-limb",
+    "version": "1.0",
+    "lastUpdated": "2024-12-29T00:00:00Z",
+    "totalRelationships": 35,
+    "relationshipTypes": {
+      "articulates_with": 5,
+      "attaches_to": 11,
+      "innervated_by": 6,
+      "supplied_by": 1,
+      "branch_of": 5,
+      "passes_through": 2,
+      "continuous_with": 3,
+      "antagonist_to": 1,
+      "synergist_with": 1
+    }
+  }
+}

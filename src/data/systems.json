@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sys-skeletal-001",
+    "name": "Skeletal System",
+    "slug": "skeletal",
+    "description": "Bones, cartilage, and joints that form the structural framework of the body",
+    "colorCode": "#F5F0E6",
+    "sortOrder": 1
+  },
+  {
+    "id": "sys-muscular-002",
+    "name": "Muscular System",
+    "slug": "muscular",
+    "description": "Skeletal muscles that enable movement and maintain posture",
+    "colorCode": "#C45C5C",
+    "sortOrder": 2
+  },
+  {
+    "id": "sys-nervous-003",
+    "name": "Nervous System",
+    "slug": "nervous",
+    "description": "Central and peripheral nervous structures including brain, spinal cord, and peripheral nerves",
+    "colorCode": "#E6C744",
+    "sortOrder": 3
+  },
+  {
+    "id": "sys-cardiovascular-004",
+    "name": "Cardiovascular System",
+    "slug": "cardiovascular",
+    "description": "Heart, arteries, veins, and capillaries that circulate blood throughout the body",
+    "colorCode": "#D64545",
+    "sortOrder": 4
+  },
+  {
+    "id": "sys-lymphatic-005",
+    "name": "Lymphatic System",
+    "slug": "lymphatic",
+    "description": "Lymph vessels, nodes, and organs involved in immune function and fluid balance",
+    "colorCode": "#7EC850",
+    "sortOrder": 5
+  },
+  {
+    "id": "sys-respiratory-006",
+    "name": "Respiratory System",
+    "slug": "respiratory",
+    "description": "Airways and lungs that facilitate gas exchange",
+    "colorCode": "#5DADE2",
+    "sortOrder": 6
+  },
+  {
+    "id": "sys-digestive-007",
+    "name": "Digestive System",
+    "slug": "digestive",
+    "description": "Organs involved in food processing, nutrient absorption, and waste elimination",
+    "colorCode": "#F39C12",
+    "sortOrder": 7
+  },
+  {
+    "id": "sys-urinary-008",
+    "name": "Urinary System",
+    "slug": "urinary",
+    "description": "Kidneys, ureters, bladder, and urethra that filter blood and produce urine",
+    "colorCode": "#AF7AC5",
+    "sortOrder": 8
+  },
+  {
+    "id": "sys-reproductive-009",
+    "name": "Reproductive System",
+    "slug": "reproductive",
+    "description": "Organs and structures involved in reproduction and sexual function",
+    "colorCode": "#EC7063",
+    "sortOrder": 9
+  },
+  {
+    "id": "sys-endocrine-010",
+    "name": "Endocrine System",
+    "slug": "endocrine",
+    "description": "Hormone-producing glands that regulate metabolism, growth, and homeostasis",
+    "colorCode": "#48C9B0",
+    "sortOrder": 10
+  }
+]

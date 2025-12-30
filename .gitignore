@@ -1,3 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Testing
+coverage
+
+# Build
+build
 
 # Claude Flow generated files
 .claude/settings.local.json
@@ -23,5 +59,4 @@ coordination/orchestration/*
 *.sqlite-journal
 *.sqlite-wal
 claude-flow
-# Removed Windows wrapper files per user request
 hive-mind-prompt-*.txt
